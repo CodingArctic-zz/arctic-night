@@ -1,0 +1,30 @@
+@use "./src/group.scss";
+
+.theme-dark, 
+:root {
+    --background-primary: #394453 !important;
+    --background-secondary: #394453 !important;
+    --background-secondary-alt: #394453 !important;
+    --background-tertiary: #aee0fd !important;
+    --background-extra: #2f3844 !important;
+    --background-accent: #ffffff !important;
+    --background-floating: var(--background-tertiary) !important;
+    --background-modifier-hover: rgba(255,255,255,0.01) !important;	
+    --background-modifier-active: rgba(255,255,255,0.03) !important;
+    --background-modifier-selected: rgba(255,255,255,0.04) !important;	
+    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --channeltextarea-background: var(--background-tertiary) !important;
+    --channels-default: #ffffff !important;
+    --text-muted: #777e88 !important;
+    --text-normal: #ffffff !important;
+    --interactive-normal: #fff !important;
+    --interactive-hover: var(--background-tertiary) !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #747474 !important;
+    --header-secondary: #c9c9c9 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+}
