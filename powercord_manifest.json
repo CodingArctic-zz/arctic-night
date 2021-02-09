@@ -1,0 +1,10 @@
+{
+    "name": "Arctic Night",
+    "description": "A WIP dark blueish theme I'm making",
+    "version": "0.1a",
+    "author": "arctic#9999",
+    "theme": "index.scss",
+    "consent": "false",
+    "splashTheme": "splash.css",
+    "license": "GPL-3.0 License"
+}
